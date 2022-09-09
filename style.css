@@ -324,7 +324,7 @@ em{
     padding-right:1.5vh;
     position:absolute;
     text-align: center;
-    content-visibility:hidden;
+    display:none;
     transition: display 1s;
     display:inline-block;
     margin-top:.5vh;
