@@ -303,24 +303,6 @@ em{
     .grid{
         grid-template-columns: 1fr;
     }  
-    .ant{
-        opacity: .15;
-    }
-    .graph{
-        opacity: 0.5;
-    }
-    .map{
-        opacity: 0.3;
-    }
-    .laptop{
-        opacity: 0.3;
-    }
-    .university{
-        opacity: 0.3;
-    }
-    .blog{
-        opacity: 0.4;
-    }
 }
 
 .box{
@@ -350,28 +332,29 @@ em{
 }
 
 
+
 .box:hover {
     opacity:0.8;
 }
-.box:hover .ant{
+.box:hover .ant .content:active{
     opacity: .15;
 }
-.box:hover .graph{
+.box:hover .graph .content:active{
     opacity: 0.5;
 }
-.box:hover .map{
+.box:hover .map .content:active{
     opacity: 0.3;
 }
-.box:hover .laptop{
+.box:hover .laptop .content:active{
     opacity: 0.3;
 }
-.box:hover .university{
+.box:hover .university .content:active{
     opacity: 0.3;
 }
-.box:hover .blog{
+.box:hover .blog .content:active{
     opacity: 0.4;
 }
-.box:hover .content{
+.box:hover .content:active{
     content-visibility: visible;
     opacity:1;
 }
