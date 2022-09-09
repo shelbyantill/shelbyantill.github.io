@@ -303,8 +303,23 @@ em{
     .grid{
         grid-template-columns: 1fr;
     }  
-    .content{
-        visibility: hidden;
+    .box:active .ant{
+        opacity: .15;
+    }
+    .box:active .graph{
+        opacity: 0.5;
+    }
+    .box:active .map{
+        opacity: 0.3;
+    }
+    .box:active .laptop{
+        opacity: 0.3;
+    }
+    .box:active .university{
+        opacity: 0.3;
+    }
+    .box:active .blog{
+        opacity: 0.4;
     }
 }
 
