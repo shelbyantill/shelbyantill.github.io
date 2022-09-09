@@ -303,22 +303,22 @@ em{
     .grid{
         grid-template-columns: 1fr;
     }  
-    .box:active .ant{
+    .ant{
         opacity: .15;
     }
-    .box:active .graph{
+    .graph{
         opacity: 0.5;
     }
-    .box:active .map{
+    .map{
         opacity: 0.3;
     }
-    .box:active .laptop{
+    .laptop{
         opacity: 0.3;
     }
-    .box:active .university{
+    .university{
         opacity: 0.3;
     }
-    .box:active .blog{
+    .blog{
         opacity: 0.4;
     }
 }
