@@ -336,25 +336,25 @@ em{
 .box:hover {
     opacity:0.8;
 }
-.box:hover .ant .content:active{
+.box:hover .ant{
     opacity: .15;
 }
-.box:hover .graph .content:active{
+.box:hover .graph {
     opacity: 0.5;
 }
-.box:hover .map .content:active{
+.box:hover .map{
     opacity: 0.3;
 }
-.box:hover .laptop .content:active{
+.box:hover .laptop{
     opacity: 0.3;
 }
-.box:hover .university .content:active{
+.box:hover .university{
     opacity: 0.3;
 }
-.box:hover .blog .content:active{
+.box:hover .blog {
     opacity: 0.4;
 }
-.box:hover .content:active{
+.box:hover .content{
     content-visibility: visible;
     opacity:1;
 }
