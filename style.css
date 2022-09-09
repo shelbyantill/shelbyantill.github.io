@@ -324,8 +324,8 @@ em{
     padding-right:1.5vh;
     position:absolute;
     text-align: center;
-    visibility:hidden;
-    transition: visibility 1s;
+    content-visibility:hidden;
+    transition: content-visibility 1s;
     display:inline-block;
     margin-top:.5vh;
     color:#1d1812;
@@ -354,7 +354,7 @@ em{
     opacity: 0.4;
 }
 .box:hover .content{
-    visibility: visible;
+    content-visibility: visible;
     opacity:1;
 }
 
