@@ -324,33 +324,13 @@ em{
     padding-right:1.5vh;
     position:absolute;
     text-align: center;
-    content-visibility:hidden;
-    transition: content-visibility 1s;
+    visibility:hidden;
+    transition: visibility 1s;
     display:inline-block;
     margin-top:.5vh;
     color:#1d1812;
 }
 
-@media(max-width:95vh){
-	.ant{
-	    opacity: .15;
-	}
-	.graph {
-	    opacity: 0.5;
-	}
-	.map{
-	    opacity: 0.3;
-	}
-	.laptop{
-	    opacity: 0.3;
-	}
-	.university{
-	    opacity: 0.3;
-	}
-	.blog {
-	    opacity: 0.4;
-	}
-}
 
 .box:hover {
     opacity:0.8;
@@ -374,7 +354,7 @@ em{
     opacity: 0.4;
 }
 .box:hover .content{
-    content-visibility: visible;
+    visibility: visible;
     opacity:1;
 }
 
