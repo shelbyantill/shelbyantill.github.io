@@ -303,6 +303,9 @@ em{
     .grid{
         grid-template-columns: 1fr;
     }  
+    .content{
+        visibility: hidden;
+    }
 }
 
 .box{
