@@ -303,6 +303,7 @@ em{
     .grid{
         grid-template-columns: 1fr;
     }  
+    
 }
 
 .box{
@@ -317,20 +318,6 @@ em{
     box-shadow: 1vh 1vh 2vh #9c9084;
 }
 
-/* .content{
-    font-family: 'Thasadith', sans-serif;    
-    font-weight:300;
-    padding-left: 1.5vh;
-    padding-right:1.5vh;
-    position:absolute;
-    text-align: center;
-    visibility:hidden;
-    transition: visibility 1s;
-    display:inline-block;
-    margin-top:.5vh;
-    color:#1d1812;
-}
- */
 .content{
     font-family: 'Thasadith', sans-serif;    
     font-weight:300;
@@ -339,31 +326,20 @@ em{
     position:absolute;
     text-align: center;
     content-visibility:hidden;
-    transition: content-visibility visibility 1s;
+    transition: content-visibility 1s;
     display:inline-block;
     margin-top:.5vh;
     color:#1d1812;
-	@@ -354,16 +354,10 @@ em{
-    opacity: 0.4;
 }
-.box:hover .content{
-     content-visibility: visible;
-     opacity:1;
-}
-@media(max-width: 95vh){
-     visibility:hidden;
-    .box:hover .content{
-	 visibility: visible;
-	 opacity:1;
-    }
-}
+
 
 .box:hover {
     opacity:0.8;
 }
-.box:hover .ant{
+.box:hover .ant {
     opacity: .15;
 }
+
 .box:hover .graph {
     opacity: 0.5;
 }
@@ -376,14 +352,13 @@ em{
 .box:hover .university{
     opacity: 0.3;
 }
-.box:hover .blog {
+.box:hover .blog{
     opacity: 0.4;
 }
 .box:hover .content{
-     visibility: visible;
-     opacity:1;
+    content-visibility: visible;
+    opacity:1;
 }
-
 
 .grid-links{
     font-family: 'Thasadith', sans-serif;   
